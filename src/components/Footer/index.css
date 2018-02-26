@@ -1,0 +1,28 @@
+#footer{
+		background-color: black;
+		height: 6rem;
+		color: rgba(233,233,233,1);
+		text-align: center;
+		padding-top:1rem;
+}
+
+.flw{
+		display:flex;
+		flex:1;
+		align-items:center;
+		justify-content: space-around;
+}
+
+.flt{
+		font-size: 0.1rem;
+		font-weight: 200;
+		margin: 0.3rem;
+}
+
+.cpn{
+		display: flex;
+		flex:1;
+		flex-direction: column;
+		justify-content: center;
+		align-items:center;
+}
