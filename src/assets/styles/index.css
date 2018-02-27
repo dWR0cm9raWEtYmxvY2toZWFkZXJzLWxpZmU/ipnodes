@@ -6,7 +6,6 @@
 }
 
 section{
-		font-family: 'Georgia serif';
 		height: 100vh;
 		display: flex;
 		flex:1;
@@ -31,33 +30,37 @@ section > h6{
 		color:rgba(66,66,66,1);
 		font-weight: 400;
 }
+section > .subtitle{
+		font-size: 0.7rem;
+}
 .is1{
 		padding-top: 8rem;
-		background-color: rgba(17,18,19,1);
+		background-color: black;
 		color: white;
 		align-items: center;
 		text-align: center;
 }
-#grid1{ margin-top: 1rem;}
+#grid1{ padding-bottom: 8rem;}
+.raw{ color: grey}
 #price{
-		font-size: 1.2rem;
+		font-size: 1rem;
 		font-weight:300;
-		color: rgba(77,154,258,1);
-		margin: 1.5rem 2rem;
+		color: rgba(203,68,74,1);
+		margin: 2rem ;
 }
 .btn{
-		margin: 1.5rem 2rem;
+		margin-top: 2rem;
 		width: 8rem;
+		height: 2.4rem;
 		font-weight: 300;
 }
 .machine{
-		width: 100%;
-		margin-top: 5rem;
-		display: flex;
-		flex:1;
-		background-color: white;
+		width:30rem;
+		height:30rem;
+		background-color: black;
 		background-image: url(../image/banner.png);
 		background-size:cover;
+		background-repeat: no-repeat;
 		background-position: center;
 }
 .is2{

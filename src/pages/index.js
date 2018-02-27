@@ -10,13 +10,15 @@ const IndexPage = () => (
 				<section className="is1" style={{height:'100vh',width:'100%'}}>
 						<h1>2018 IPFS超级节点IPNodes</h1>
 						<h1 >重磅预售</h1>
+						<text className="subtitle">IPFS矿机, 私人云盘, 数字钱包 | 2.3G四核, 4T硬盘, 4G内存</text>
+						<div className="machine" />						
 						<Row id="grid1">
-								<Col md={6} xs={12} ><h1 id="price">2999/台</h1></Col>
 								<Col md={6} xs={12} >
-										<Button color="primary" className="btn">立即抢购</Button>
-								</Col>
+										<Link to="/purchase"><Button color="danger" className="btn">立即抢购</Button></Link>
+								</Col>								
+								<Col md={6} xs={12} ><h1 id="price"><s className="raw">原价3999元/台</s><br/> 2999元/台</h1></Col>
 						</Row>
-						<div className="machine" />
+
 				</section>
 				<section className="is2">
 						<h1>IPFS共享存储 &  多收益</h1>
