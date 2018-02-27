@@ -31,6 +31,7 @@ section > h6{
 		font-weight: 400;
 }
 section > .subtitle{
+		margin-top: 1rem;
 		font-size: 0.7rem;
 }
 .is1{
@@ -64,13 +65,13 @@ section > .subtitle{
 		background-position: center;
 }
 .is2{
-		padding: 2rem;
+		padding: 3rem 2rem;
 		text-align: center;
 		height: auto;
 		background-color: rgba(250,250,250,1)
 }
 
-.grid{ text-align: center; margin: 1rem 1rem 0 }
+.grid{ text-align: center; margin: 3rem 1rem 0 }
 
 .g2c{
 		margin-bottom:1rem;
@@ -95,7 +96,7 @@ section > .subtitle{
 .i3{ background-image: url(../image/3.png) }
 .i4{ background-image: url(../image/8.png) }
 
-.is3{ padding: 2rem; height:auto; }
+.is3{ padding: 3rem 2rem; height:auto; }
 
 .g3p{
 		margin-top: 0.2rem;
@@ -116,7 +117,7 @@ section > .subtitle{
 
 .is4{
 		height: auto;
-		padding: 2rem;
+		padding: 3rem 2rem;
 		background-color: rgba(250,250,250,1)
 }
 
@@ -141,7 +142,7 @@ section > .subtitle{
 
 .is5{
 		height: 45vh;
-		padding:2rem;
+		padding:3rem 2rem;
 		padding-bottom: 0;
 		background-color:rgba(231,232,234,1);		
 }
