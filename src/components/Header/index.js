@@ -13,6 +13,8 @@ const s = {
 				margin: '0 auto',
 				maxWidth: 960,
 				padding: '1.45rem 1.0875rem',
+				display:'flex',
+				justifyContent: 'space-between'
 		},
 		link:{
 				color: 'white',
@@ -27,11 +29,12 @@ const s = {
 const Header = () => (
 		<div style={s.ctn} >
 				<div style={s.hrow} >
-						<text style={{ margin: 0 }}>
-								<Link to="/" style={s.link}>
-										<img src={logo} style={s.logo}/>
-								</Link>
-						</text>
+						<Link to="/" style={s.link}>
+								<img src={logo} style={s.logo}/>
+						</Link>
+						<Link to="/api/login" style={s.link}>
+								<text style={{fontSize:'0.85rem'}}>登录</text>
+						</Link>																						
 				</div>
 		</div>
 )
