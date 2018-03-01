@@ -200,7 +200,7 @@ class IndexPage extends Component{
 								<LazyLoad height={200}><section className="is5">
 										<h1>未来的智能家居</h1>
 										<h6>星系节点致力于为每个人，提供不受监控的智能硬件方案，把数据归还给用户</h6>
-										<Link src="/api/invite/new"><MButton
+										<Link to="/api/invite/new"><MButton
 												style={{width:'8rem',marginTop:'1.5rem'}}
 												variant="raised" color="secondary" >加入我们</MButton></Link>
 										<div className="i51" />
