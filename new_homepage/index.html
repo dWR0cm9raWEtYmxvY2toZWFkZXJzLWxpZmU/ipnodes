@@ -230,12 +230,24 @@
         </div>
       </div>
     </div>
+
+            <div class="model">
+
+                <div class="model-body">
+                    <p><span style="color:red;"> 预约成功！</span>请加官方微信</p>
+                    <img src="/wx.jpg" alt="客服微信">
+                    <p>预售抢购开始我们会第一时间通知您！</p>
+                </div>
+
+            </div>
+
     <script src="https://cdn.bootcss.com/jquery/1.12.1/jquery.min.js"></script>
     <script src="/static/mdb.min.js" charset="utf-8"></script>
     <script>
 
 
      new WOW().init();
+
      function checkMobile(value) {
          if(!(/^1[3|4|5|7|8][0-9]\d{4,8}$/.test(value))){
              return false;
@@ -295,6 +307,7 @@
              if (data.message == '验证成功!') {
                  $('#sub').prop('disabled', true).text('预约成功!');
                  $('#sub').addClass('disabled');
+                 $(".model").css({"display":"block"});
              } else {
                  $('#sub').text('失败, 请检查!');
                  $('#sub').prop('disabled', false);
